@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2fc8426f18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Solitaire</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 50%;
+      "
+    >
+      <button class="btn ripple" id="undo">Undo</button>
+      <button class="btn ripple" id="reset">Reset</button>
+      <button class="btn ripple" id="win" style="right: 0">Simulate Win</button>
+    </div>
+
+    <div><h4 class="moves" id="moves">Moves: 0</h4></div>
+    <div id="checkerboard" class="checkerboard"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
