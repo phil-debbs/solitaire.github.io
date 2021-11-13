@@ -1,0 +1,12 @@
+https://docs.mongodb.com/realm/tutorial/realm-app/
+
+To use our pre-made backend, you'll have to:
+
+Create an Atlas account, if you don't already have one. (3 minutes)
+Create a free Atlas cluster running MongoDB 4.4 or higher. (5 minutes)
+Install the Realm CLI. (5 minutes)
+Add a programmatic API key to your Atlas project and use it to log into the Realm CLI. (5 minutes)
+Use the Realm CLI to create a new Task Tracker backend Realm app with our pre-made Task Tracker backend. (5 minutes)
+
+Add an API Key to Your Atlas Project & Log into the Realm CLI
+realm-cli login --api-key necomvtu --private-api-key ee88c9a4-5b83-478e-bbc9-71415a069e37
